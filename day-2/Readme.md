@@ -12,22 +12,22 @@
 ### Resposta 1
 
     - 1.Tres nodes são Workers
-    ```bash
-    kubectl get nodes
-    ```
+```bash
+kubectl get nodes
+```
     - 2.Um Node é Master
-    ```bash
-    kubectl get nodes
-    ```
+```bash
+kubectl get nodes
+ ```
     - 3.Weave-Net
-    ```bash
-    kubectl get pods -n kube-system
-    ```
-    ```bash
-    ssh NODE
-    cd /etc/cni
-    ls -lha
-    ```
+```bash
+kubectl get pods -n kube-system
+```
+```bash
+ssh NODE
+cd /etc/cni
+ls -lha
+```
     - 4.10.32.0.0/12
 ```bash
 kubectl describe nodes <NODE_NAME> | grep -i PodCIDR
