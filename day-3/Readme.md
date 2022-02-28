@@ -81,5 +81,7 @@ kubeadm certs renew all
 ```
 
 > Lembrando a importancia de realizar o procedimento em todos os nodes master.
+
 > Lembre se de reiniciar o apiserver, controller, scheduller e o etcd.
+
 > Para isso, você pode utilizar o comando docker stop, de dentro do node que esta sendo atualizado.
