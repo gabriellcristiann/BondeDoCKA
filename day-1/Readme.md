@@ -43,7 +43,7 @@ kubectl create -f deployment.yaml
 
 ### Questão 3
 
-Precisamos atualizar a versão di Nginx do Pod giropops. Ele está na versão 1.18.0 e precisamos atualizar para versão 1.21.1
+Precisamos atualizar a versão do Nginx do Pod giropops. Ele está na versão 1.18.0 e precisamos atualizar para versão 1.21.1
 
 ### Resposta 1
 
