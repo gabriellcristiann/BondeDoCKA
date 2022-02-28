@@ -60,7 +60,3 @@ kubectl get pods giropops -o yaml > pod4.yaml # Ao abrir o yaml, editamos-o remo
 
 kubectl apply -f pod4.yaml
 ```
-
-```bash
-
-```
