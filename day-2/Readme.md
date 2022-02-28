@@ -141,19 +141,3 @@ kubectl logs -f meu-pod container-2
 kubectl logs -f meu-pod container-3
 kubectl exec -ti meu-pod -c container-1 --bash
 ```
-
-### Questão 3
-
--
-
-### Resposta 1
-
-
-
-```bash
-
-```
-
-```bash
-
-```
